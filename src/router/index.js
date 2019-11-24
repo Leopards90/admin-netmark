@@ -276,19 +276,19 @@ export const asyncRoutes = [
   //     },
   //   ]
   // },
-  //
-  // {
-  //   path: '/tab',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       component: () => import('@/views/tab/index'),
-  //       name: 'Tab',
-  //       meta: { title: 'Tab', icon: 'tab' ,roles: ['dev']}
-  //     }
-  //   ]
-  // },
+
+  {
+    path: '/footer',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/tab/index'),
+        name: 'Footer',
+        meta: { title: 'Footer', icon: 'tab' ,roles: ['dev','admin']}
+      }
+    ]
+  },
   //
   // {
   //   path: '/error',

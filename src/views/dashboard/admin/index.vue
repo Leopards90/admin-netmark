@@ -1,8 +1,8 @@
 <template>
-  <!--<div class="dashboard-editor-container">-->
+  <div class="dashboard-editor-container">
     <!--<github-corner class="github-corner" />-->
 
-    <!--<panel-group @handleSetLineChartData="handleSetLineChartData" />-->
+    <panel-group @handleSetLineChartData="handleSetLineChartData" />
 
     <!--<el-row style="background:#fff;padding:16px 16px 0;margin-bottom:32px;">-->
       <!--<line-chart :chart-data="lineChartData" />-->
@@ -37,7 +37,7 @@
         <!--<box-card />-->
       <!--</el-col>-->
     <!--</el-row>-->
-  <!--</div>-->
+  </div>
 </template>
 
 <script>

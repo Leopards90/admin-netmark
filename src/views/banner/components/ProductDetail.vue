@@ -263,7 +263,6 @@ export default {
       }
     },
     fetchData(id) {
-      console.log(id)
       let params = {id : id}
       var vm = this
       fetchBanner(params).then(response => {
